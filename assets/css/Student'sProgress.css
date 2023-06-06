@@ -140,3 +140,370 @@ a {
   height: 320px;
   margin-left: 20px;
 }
+
+/* container 2 css */
+.container2{
+    /* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px 19px;
+gap: 30px;
+
+width: 1386px;
+height: 1343px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+/* frame8 css */
+.frame8{
+    /* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 30px;
+
+width: 484px;
+height: 1096px;
+
+background: #FFFFFF;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card_updates{
+    /* card */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 484px;
+height: 328px;
+
+background: #FF5858;
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame4{
+    /* Frame 4 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 20px 30px;
+gap: 10px;
+
+width: 484px;
+height: 88px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.frame4 h1{
+    /* Updates */
+
+
+width: 167px;
+height: 48px;
+
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.frame2{
+    /* Frame 2 */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 20px 10px;
+gap: 10px;
+
+width: 411px;
+height: 240px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+
+
+.card2
+{
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+
+width: 484px;
+height: 328px;
+
+background: #4C4C4C;
+border-radius: 20px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+.card2_frame4{
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px 30px;
+    gap: 10px;
+    
+    width: 484px;
+    height: 88px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.card2_frame2
+{
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+    
+    width: 411px;
+    height: 240px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.card2_Reminders
+{
+        /* Reminders */
+        
+        
+        width: 214px;
+        height: 48px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 48px;
+        
+        color: #FFFFFF;
+        
+        
+        /* Inside auto layout */
+        
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+}
+.card2_Data
+{
+       /* New Inter School Course DA DUE DAR pending submission New Inter School Course DA DUE DAR pending submission */
+       
+       
+       width: 391px;
+       height: 200px;
+       
+       font-family: 'Inter';
+       font-style: normal;
+       font-weight: 500;
+       font-size: 25px;
+       line-height: 30px;
+       
+       color: #FFFFFF;
+       
+       
+       /* Inside auto layout */
+       
+       flex: none;
+       order: 0;
+       flex-grow: 0;
+}
+
+
+
+.card3{
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    
+    width: 484px;
+    height: 380px;
+    
+    background: #EFEFEF;
+    border-radius: 20px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.card3_fram4{
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 10px;
+    
+    width: 432px;
+    height: 88px;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card3_head{
+    
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 10px 19px;
+gap: 20px;
+
+width: 484px;
+height: 292px;
+overflow-x: scroll;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.card_course1{
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 8px;
+    gap: 10px;
+    
+    width: 446px;
+    height: 126px;
+    
+    background: #EFEFEF;
+    border-radius: 10px;
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.card_course2{
+    
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 8px;
+gap: 10px;
+
+width: 446px;
+height: 126px;
+
+background: #EFEFEF;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
